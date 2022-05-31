@@ -1,5 +1,60 @@
 .container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr .2fr;
+    grid-template-rows: .2fr .1fr 2fr .1fr;
+    grid-template-areas: 
+        "title title"
+        "header header"
+        "main main"
+        "footer footer";
+}
+.sub-title {
+    grid-area: title;
+    font-size: x-large;
+    margin-top: 30px;
+    padding-left: 20px;
+    font-family: Monaco, monospace;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
     display: flex;
-    gap: 20px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    margin-top: 100px;
+}
+p {
+    font-size: large;
+}
+#avatar{
+    width: 10%;
+    
+}
+.post-header {
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.name {
+    color: rgb(8, 119, 211);
+}
+.sub-text {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.main-content {
+    padding-left: 50px;
+}
+.image-text {
+    padding-top: 20px;
 }
