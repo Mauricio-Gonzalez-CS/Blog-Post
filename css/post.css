@@ -58,3 +58,21 @@ p {
 .image-text {
     padding-top: 20px;
 }
+.post-images {
+    width: 80%;
+}
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    width: 80%;
+}
+.submit-btn {
+    background-color: rgb(12, 119, 206);
+    color: white;
+    border: .5px solid white;
+    border-radius: 25px;
+    padding: 12px;
+}
