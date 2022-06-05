@@ -76,3 +76,9 @@ figcaption {
     border-radius: 25px;
     padding: 12px;
 }
+hr {
+    width: 95%;
+}
+#media-logos {
+    width: 20%;
+}
